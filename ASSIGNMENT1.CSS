@@ -1,6 +1,7 @@
 * {
   margin: 0px;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -14,25 +15,23 @@
 }
 .list ul li a {
   text-decoration: none;
-  /* color: black; */
-  /* color: #fd6534; */
+  
 }
 .list ul li a:hover {
   text-decoration: underline;
   
+  
 }
-.list ul li:hover{
-    color:black;
-}
+
 
 .list ul {
   display: flex;
 }
-.account button {
-  outline: none;
+.btn1 {
+  border-color:#ffd8db ;
   width: 150px;
   height: 50px;
-  border-radius: 40px;
+  border-radius:40px;
   background-color: #ffd8db;
   color: #a389cc;
   padding: 10px;
@@ -104,7 +103,7 @@
   border-radius: 15px;
   margin: 10px;
   padding: 10px;
-  width: 93%;
+  width: 88%;
 }
 
 #img1 {
@@ -115,12 +114,19 @@
 .img2 {
   display: none;
 }
-p:hover .img2 {
+.main_div:hover .img2 {
   display: block;
 }
-p:hover .img1 {
-  display: none;
+.main_div:hover .img1 {
+display: none;
 }
+
+.main_div:hover{
+  background-color: rgb(209, 204, 204);
+}
+
+
+
 
 #img2 {
   margin-left: 30px;
@@ -155,10 +161,18 @@ p:hover .img1 {
 #btn4 {
   background-color: #ffe4a0;
 }
-.img1:hover .main_div {
-  background-color: #5243c0;
-}
+
 
 h4 {
   margin-left: 10px;
 }
+/* span div{
+  background-color: #fd6534;
+} */
+/* span div:hover{
+  background-color: #9ed095;
+} */
+ span div{
+  background-color:white;
+}
+
